@@ -1970,10 +1970,6 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-"language-hugo@https://github.com/mattstratton/language-hugo#0.5.1":
-  version "0.5.1"
-  resolved "https://github.com/mattstratton/language-hugo#ed06ed63ad91265cf1656dbf16d407576d0c562b"
-
 language-rust@^0.4.12:
   version "0.4.12"
   resolved "https://registry.yarnpkg.com/language-rust/-/language-rust-0.4.12.tgz#fc00b07aed22bf5160e15fbe289960a252da47e3"

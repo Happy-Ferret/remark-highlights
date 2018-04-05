@@ -414,27 +414,14 @@ exports[`remark atom highlights plugin highlight codes from scope when scope is 
 Object {
   "children": Array [
     Object {
-      "lang": "html{scopeName:\\"source.hugo\\", languagePackage:\\"language-hugo\\"}",
+      "lang": "html{scopeName:\\"source.rust\\", languagePackage:\\"language-rust\\"}",
       "position": Position {
         "end": Object {
           "column": 4,
-          "line": 16,
-          "offset": 250,
+          "line": 3,
+          "offset": 82,
         },
         "indent": Array [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
         ],
@@ -445,14 +432,14 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag sgml html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;!</span></span><span class=\\"meta tag sgml doctype html\\"><span>DOCTYPE</span><span>&nbsp;html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>head</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;</span></span><span class=\\"entity name tag inline any html\\"><span>meta</span></span><span>&nbsp;</span><span class=\\"entity other attribute-name html\\"><span>charset</span></span><span>=</span><span class=\\"string quoted double html\\"><span class=\\"punctuation definition string begin html\\"><span>&quot;</span></span><span>utf-8</span><span class=\\"punctuation definition string end html\\"><span>&quot;</span></span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;</span></span><span class=\\"entity name tag inline any html\\"><span>title</span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span><span>{{&nbsp;block&nbsp;&quot;title&quot;&nbsp;.&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;.Site.Title&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;end&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;/</span></span><span class=\\"entity name tag inline any html\\"><span>title</span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>head</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>body</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;block&nbsp;&quot;main&quot;&nbsp;.&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;end&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>body</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source rust\\"><span class=\\"keyword other fn rust\\"><span>fn</span></span><span>&nbsp;</span><span class=\\"entity name function rust\\"><span>main</span></span><span>()&nbsp;</span><span>{</span><span>}</span></span></div></pre>",
     },
   ],
   "position": Object {
     "end": Object {
       "column": 4,
-      "line": 16,
-      "offset": 250,
+      "line": 3,
+      "offset": 82,
     },
     "start": Object {
       "column": 1,
@@ -673,21 +660,14 @@ exports[`remark atom highlights plugin should highlight line numbers 1`] = `
 Object {
   "children": Array [
     Object {
-      "lang": "html{scopeName:\\"source.hugo\\", languagePackage:\\"language-hugo\\", highlightLines: (1-2, 5)}",
+      "lang": "js{highlightLines: (1-2, 5)}",
       "position": Position {
         "end": Object {
           "column": 4,
-          "line": 16,
-          "offset": 276,
+          "line": 9,
+          "offset": 163,
         },
         "indent": Array [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -704,14 +684,14 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line highlighted-line\\"><span class=\\"text html basic\\"><span class=\\"meta tag sgml html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;!</span></span><span class=\\"meta tag sgml doctype html\\"><span>DOCTYPE</span><span>&nbsp;html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>head</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;</span></span><span class=\\"entity name tag inline any html\\"><span>meta</span></span><span>&nbsp;</span><span class=\\"entity other attribute-name html\\"><span>charset</span></span><span>=</span><span class=\\"string quoted double html\\"><span class=\\"punctuation definition string begin html\\"><span>&quot;</span></span><span>utf-8</span><span class=\\"punctuation definition string end html\\"><span>&quot;</span></span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;</span></span><span class=\\"entity name tag inline any html\\"><span>title</span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span><span>{{&nbsp;block&nbsp;&quot;title&quot;&nbsp;.&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;.Site.Title&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;end&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag inline any html\\"><span class=\\"punctuation definition tag begin html\\"><span>&lt;/</span></span><span class=\\"entity name tag inline any html\\"><span>title</span></span><span class=\\"punctuation definition tag end html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>head</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;</span></span><span class=\\"entity name tag structure any html\\"><span>body</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;block&nbsp;&quot;main&quot;&nbsp;.&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span>{{&nbsp;end&nbsp;}}</span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>body</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div><div class=\\"line\\"><span class=\\"text html basic\\"><span class=\\"meta tag structure any html\\"><span class=\\"punctuation definition tag html\\"><span>&lt;/</span></span><span class=\\"entity name tag structure any html\\"><span>html</span></span><span class=\\"punctuation definition tag html\\"><span>&gt;</span></span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span class=\\"support variable js\\"><span>module</span></span><span class=\\"meta function arrow js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"entity name function js\\"><span>exports</span></span><span>&nbsp;</span><span class=\\"keyword operator assignment js\\"><span>=</span></span><span>&nbsp;</span><span class=\\"meta parameters js\\"><span class=\\"punctuation definition parameters begin bracket round js\\"><span>(</span></span><span class=\\"variable parameter function js\\"><span>options</span></span><span class=\\"punctuation definition parameters end bracket round js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"storage type function arrow js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"meta function arrow js\\"><span class=\\"meta parameters js\\"><span class=\\"punctuation definition parameters begin bracket round js\\"><span>(</span></span><span class=\\"variable parameter function js\\"><span>ast</span></span><span class=\\"punctuation definition parameters end bracket round js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"storage type function arrow js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"punctuation definition function body begin bracket curly js\\"><span>{</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span>	</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>This</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span>	</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>is</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span>	</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>a</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span>	</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>test</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"punctuation definition function body end bracket curly js\\"><span>}</span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div></pre>",
     },
   ],
   "position": Object {
     "end": Object {
       "column": 4,
-      "line": 16,
-      "offset": 276,
+      "line": 9,
+      "offset": 163,
     },
     "start": Object {
       "column": 1,

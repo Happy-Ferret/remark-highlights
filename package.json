@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "jest": "^21.0.0",
-    "language-hugo": "https://github.com/mattstratton/language-hugo#0.5.1",
     "language-rust": "^0.4.12",
     "remark": "^8.0.0"
   },
