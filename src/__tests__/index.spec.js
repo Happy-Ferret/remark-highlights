@@ -1,7 +1,7 @@
 const remark = require(`remark`);
 const plugin = require(`../index`);
 
-const runTestWithPluginOptions = (code, options = {}) => {
+const run = (options = {}, code) => {
   const markdownAST = remark.parse(code);
   plugin(options)(markdownAST);
   expect(markdownAST).toMatchSnapshot();
@@ -9,169 +9,205 @@ const runTestWithPluginOptions = (code, options = {}) => {
 
 describe(`remark atom highlights plugin`, () => {
   it(`generates highlighted code`, () => {
-    const code = `\`\`\`js
+    run(
+      {},
+      `\`\`\`js
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`does not blast off when no lang is provided`, () => {
-    const code = `\`\`\`
+    run(
+      {},
+      `\`\`\`
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight code when language name is provided`, () => {
-    const code = `\`\`\`javascript
+    run(
+      {},
+      `\`\`\`javascript
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight code when filename name is provided`, () => {
-    const code = `\`\`\`test.js
+    run(
+      {},
+      `\`\`\`test.js
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`inline scopePrefix`, () => {
-    const code = `\`\`\`js{scopePrefix: "source--"}
+    run(
+      {},
+      `\`\`\`js{scopePrefix: "source--"}
 // Atom Highlight
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight codes from scope when scope is provided; it would try to use js even if rs is provided`, () => {
-    const code = `\`\`\`rs{scopeName: "source.js"}
+    run(
+      {},
+      `\`\`\`rs{scopeName: "source.js"}
 // Atom Highlight
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight codes from addition langs when passed in inline config`, () => {
-    const code = `\`\`\`rs{languagePackage: "language-rust"}
+    run(
+      {},
+      `\`\`\`rs{languagePackage: "language-rust"}
 // Atom Highlight
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`loads grammars from inline config`, () => {
-    const code = `\`\`\`rs{languagePackage: "language-rust"}
+    run(
+      {},
+      `\`\`\`rs{languagePackage: "language-rust"}
 // Atom Highlight
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight codes from scope when scope is provided and languagePackage is provided`, () => {
-    const code = `\`\`\`html{scopeName:"source.rust", languagePackage:"language-rust"}
+    run(
+      {},
+      `\`\`\`html{scopeName:"source.rust", languagePackage:"language-rust"}
 fn main() {}
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`should highlight line numbers`, () => {
-    const code = `\`\`\`js{highlightLines: (1-2, 5)}
+    run(
+      {},
+      `\`\`\`js{highlightLines: (1-2, 5)}
 module.exports = (options) => (ast) => {
   console.log("This");
   console.log("is");
   console.log("a");
   console.log("test");
 };
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight when inline config is provided in single quote`, () => {
-    const code = `\`\`\`js{scopePrefix: 'source--'}
+    run(
+      {},
+      `\`\`\`js{scopePrefix: 'source--'}
 // Atom Highlight
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`should replace pre class from inlineconfig`, () => {
-    const code = `\`\`\`js{ preClass: { removeClass: true } }
+    run(
+      {},
+      `\`\`\`js{ preClass: { removeClass: true } }
 // Atom Highlight with fileName
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`has codewraps when inline codewrapping is enabled`, () => {
-    const code = `\`\`\`js{ codeWrap: true }
+    run(
+      {},
+      `\`\`\`js{ codeWrap: true }
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`has codewraps and fileicons when enabled in inline config`, () => {
-    const code = `\`\`\`js{ codeWrap: true, showFileIcon: true  }
+    run(
+      {},
+      `\`\`\`js{ codeWrap: true, showFileIcon: true  }
 // Atom Highlights
-\`\`\``;
-    runTestWithPluginOptions(code);
+\`\`\``
+    );
   });
 
   it(`highlight codes from addition langs from plugin config`, () => {
-    const code = `\`\`\`rs
+    run(
+      { additionalLangs: [`language-rust`] },
+      `\`\`\`rs
 // Atom Highlights
-\`\`\``;
-    const options = { additionalLangs: [`language-rust`] };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`has codewraps when codewrapping is enabled`, () => {
-    const code = `\`\`\`js
+    run(
+      { codeWrap: true },
+      `\`\`\`js
 // Atom Highlights
-\`\`\``;
-    const options = { codeWrap: true };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`has codewraps with specific class when codewrapping is enabled`, () => {
-    const code = `\`\`\`js
+    run(
+      { codeWrap: { className: "midnight" } },
+      `\`\`\`js
 // Atom Highlights
-\`\`\``;
-    const options = { codeWrap: { className: "midnight" } };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`override scopePrefix from config when inline config is provided`, () => {
-    const code = `\`\`\`js{scopePrefix: ""}
+    run(
+      { scopePrefix: `source--` },
+      `\`\`\`js{scopePrefix: ""}
 // Atom Highlight
-\`\`\``;
-    const options = { scopePrefix: `source--` };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`should show filename`, () => {
-    const code = `\`\`\`js
+    run(
+      { showFileName: true },
+      `\`\`\`js
 // Atom Highlight with fileName
-\`\`\``;
-    const options = { showFileName: true };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`should show fileicon`, () => {
-    const code = `\`\`\`js
+    run(
+      { showFileIcon: true },
+      `\`\`\`js
 // Atom Highlight with fileName
-\`\`\``;
-    const options = { showFileIcon: true };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`should replace pre class from config`, () => {
-    const code = `\`\`\`js
+    run(
+      { preClass: { removeClass: true } },
+      `\`\`\`js
 // Atom Highlight with fileName
-\`\`\``;
-    const options = { preClass: { removeClass: true } };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 
   it(`should set custom pre class from config`, () => {
-    const code = `\`\`\`js
+    run(
+      { preClass: { className: "foo bar" } },
+      `\`\`\`js
 // Atom Highlight with fileName
-\`\`\``;
-    const options = { preClass: { className: "foo bar" } };
-    runTestWithPluginOptions(code, options);
+\`\`\``
+    );
   });
 });
