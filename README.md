@@ -1,5 +1,7 @@
 # remark-highlights
 
+[![Build Status](https://travis-ci.org/MoOx/remark-highlights.svg?branch=master)](https://travis-ci.org/MoOx/remark-highlights)
+
 This [remark](https://remark.js.org) plugin allows you to highlight code snippets
 in markdown files using [Atom highlights](https://github.com/atom/highlights).
 
