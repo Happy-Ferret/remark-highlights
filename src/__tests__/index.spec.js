@@ -3,7 +3,7 @@ const plugin = require(`../index`);
 
 const runTestWithPluginOptions = (code, options = {}) => {
 	const markdownAST = remark.parse(code);
-	plugin({ markdownAST }, options);
+	plugin(options)(markdownAST);
 	expect(markdownAST).toMatchSnapshot();
 };
 

@@ -6,9 +6,9 @@ const wrapNode = require(`./utils/wrapNode`);
 const constructConfig = require(`./utils/constructConfig`);
 const highlightLines = require(`./utils/highlightLines`);
 
-module.exports = ({ markdownAST }, pluginOptions) => {
-	visit(markdownAST, `code`, node => {
-		const config = constructConfig(node, pluginOptions);
+module.exports = (options) => (ast) => {
+	visit(ast, `code`, node => {
+		const config = constructConfig(node, options);
 
 		const highlighter = new Highlights(({ scopePrefix } = config));
 
