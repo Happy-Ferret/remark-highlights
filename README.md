@@ -24,21 +24,17 @@ const html = require("remark-html");
 
 remark()
   .use(highlights, {
-    // scope prefix to use, defaults to ''
-    scopePrefix: "syntax--",
-
     // Additional languages, useful if your language is not supported by default
-    additionalLangs: ["language-rust"],
-
-    codeWrap: {
-      className: "midnight"
-    }
+    additionalLangs: ["language-rust"]
+    // ...more option in docs below
   })
   .use(html)
   .process(/*your content*/);
 ```
 
-### Use additional languages
+### Options
+
+#### `additionalLangs: Array<string>` (default: `[]`)
 
 If you want to use a language [that is not handled by default](https://github.com/atom/highlights/tree/master/deps),
 you have to install a package yourself
@@ -48,7 +44,36 @@ E.g: to use Rust, you install `language-rust` package:
 npm install language-rust
 ```
 
-Then you will have to specify it using `additionalLangs` option
+Then provide the name of the package to this option.
+
+#### `scopePrefix: string` (default: `syntax--`)
+
+Allows you to change the prefix of language scope CSS class.
+
+#### `codeWrap` (default: `false`)
+
+Allows you to add an additional wrapper around the `<pre>` tag with some attributes.
+You can send an object like `{className: "myclass"}`.
+
+Passing `true` will use `{className: "highlight"}`.
+
+#### `showFileName` (default: `false`)
+
+Allows you to append filename before the `<pre>` tag.
+
+#### `showFileIcon` (default: `false`)
+
+Allows you to append icon class before the `<pre>` tag.
+This will require an Atom theme that support icons.
+
+#### `preClass` (default: `"editor editor-colors"` (highlights default))
+
+Object to specify a class for the `<pre>` tag surrounding the code.
+Set to `false` to remove the class completely.
+
+#### `wrapAll` (default: `false`)
+
+Allows to wrap the all result (including filename, icon and code).
 
 ### Adjust syntax theme (CSS styles/colors)
 
