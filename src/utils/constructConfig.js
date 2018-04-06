@@ -1,12 +1,12 @@
 const { defaults } = require(`lodash`);
 const parseConfig = require(`simple-string-to-json`);
 const defaultPluginOptions = {
-  additionalLangs: null,
-  scopePrefix: null,
+  additionalLangs: [],
+  scopePrefix: "syntax--",
+  preClass: true,
   codeWrap: false,
   showFileName: false, // File name is actually lang
   showFileIcon: false,
-  preClass: false,
   wrapAll: false
 };
 

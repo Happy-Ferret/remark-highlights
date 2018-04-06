@@ -195,7 +195,7 @@ module.exports = (options) => (ast) => {
 
   it(`should replace pre class from config`, () => {
     run(
-      { preClass: { removeClass: true } },
+      { preClass: false },
       `\`\`\`js
 // Atom Highlight with fileName
 \`\`\``
@@ -204,7 +204,7 @@ module.exports = (options) => (ast) => {
 
   it(`should set custom pre class from config`, () => {
     run(
-      { preClass: { className: "foo bar" } },
+      { preClass: "foo bar" },
       `\`\`\`js
 // Atom Highlight with fileName
 \`\`\``

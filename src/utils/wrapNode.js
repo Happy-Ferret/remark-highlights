@@ -14,28 +14,28 @@ module.exports = (node, config) => {
   } = config;
 
   let fileNameInSideCodeWrap, fileIconInSideCodeWrap;
-  if (!!codeWrap && !!showFileName) {
+  if (codeWrap && showFileName) {
     // if showoFileName exits
     fileNameInSideCodeWrap = showFileName.insideCodeWrap;
   }
 
-  if (!!codeWrap && !!showFileIcon) {
+  if (codeWrap && showFileIcon) {
     fileIconInSideCodeWrap = showFileIcon.insideCodeWrap;
   }
 
-  if (!!showFileName && !!fileNameInSideCodeWrap) {
+  if (showFileName && fileNameInSideCodeWrap) {
     //Show the file name inside the codewrap
     wrappedNode = `<span class='highlighted-file-name'>${lang}</span>${wrappedNode}`;
   }
 
-  if (!!showFileIcon && !!fileIconInSideCodeWrap) {
+  if (showFileIcon && fileIconInSideCodeWrap) {
     const fileIconArray = getIcon(lang);
     wrappedNode = `<span class='highlighted-file-icon ${fileIconArray[0]} ${
       fileIconArray[1]
     }'></span>${wrappedNode}`;
   }
 
-  if (!!codeWrap) {
+  if (codeWrap) {
     //CodeWrap is enabled
 
     const { className } = defaults({}, codeWrap, { className: `highlight` });
@@ -43,33 +43,32 @@ module.exports = (node, config) => {
     wrappedNode = `<div class='${className}'>${wrappedNode}</div>`;
   }
 
-  if (!!showFileName && !fileNameInSideCodeWrap) {
+  if (showFileName && !fileNameInSideCodeWrap) {
     wrappedNode = `<span class='highlighted-file-name'>${lang}</span>${wrappedNode}`;
   }
 
-  if (!!showFileIcon && !fileIconInSideCodeWrap) {
+  if (showFileIcon && !fileIconInSideCodeWrap) {
     const fileIconArray = getIcon(lang);
     const fileIconName = fileIconArray[0];
     const fileIconColor = fileIconArray[1];
     wrappedNode = `<span class='highlighted-file-icon ${fileIconName} ${fileIconColor}'></span>${wrappedNode}`;
   }
 
-  if (!!wrapAll) {
+  if (wrapAll) {
     wrappedNode = `<div class='highlight-wrapper'>${wrappedNode}</div>`;
   }
 
-  if (!!preClass) {
-    if (!!preClass.removeClass || !!preClass.remove) {
-      wrappedNode = wrappedNode.replace(
-        `pre class="editor editor-colors"`,
-        `pre`
-      );
-    } else if (!!preClass.className || !!preClass.class) {
-      wrappedNode = wrappedNode.replace(
-        `pre class="editor editor-colors"`,
-        `pre class="${preClass.className}"`
-      );
-    }
+  if (preClass === false) {
+    wrappedNode = wrappedNode.replace(
+      `pre class="editor editor-colors"`,
+      `pre`
+    );
+  }
+  if (typeof preClass === "string") {
+    wrappedNode = wrappedNode.replace(
+      `pre class="editor editor-colors"`,
+      `pre class="${preClass}"`
+    );
   }
 
   return wrappedNode;

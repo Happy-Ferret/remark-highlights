@@ -22,7 +22,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"text plain null-grammar\\"><span>//&nbsp;Atom&nbsp;Highlights</span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--text syntax--plain syntax--null-grammar\\"><span>//&nbsp;Atom&nbsp;Highlights</span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -63,7 +63,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -104,7 +104,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<span class='highlighted-file-icon js-icon medium-yellow'></span><div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
+      "value": "<span class='highlighted-file-icon js-icon medium-yellow'></span><div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
     },
   ],
   "position": Object {
@@ -145,7 +145,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
+      "value": "<div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
     },
   ],
   "position": Object {
@@ -186,7 +186,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
+      "value": "<div class='highlight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
     },
   ],
   "position": Object {
@@ -227,7 +227,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<div class='midnight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
+      "value": "<div class='midnight'><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre></div>",
     },
   ],
   "position": Object {
@@ -268,7 +268,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -309,7 +309,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--text syntax--plain syntax--null-grammar\\"><span>//&nbsp;Atom&nbsp;Highlights</span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -350,7 +350,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source rust\\"><span class=\\"comment line double-slash rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--rust\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlights</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -391,7 +391,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source rust\\"><span class=\\"comment line double-slash rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--rust\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -432,7 +432,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source rust\\"><span class=\\"keyword other fn rust\\"><span>fn</span></span><span>&nbsp;</span><span class=\\"entity name function rust\\"><span>main</span></span><span>()&nbsp;</span><span>{</span><span>}</span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--rust\\"><span class=\\"syntax--keyword syntax--other syntax--fn syntax--rust\\"><span>fn</span></span><span>&nbsp;</span><span class=\\"syntax--entity syntax--name syntax--function syntax--rust\\"><span>main</span></span><span>()&nbsp;</span><span>{</span><span>}</span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -473,7 +473,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -596,7 +596,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source rust\\"><span class=\\"comment line double-slash rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--rust\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--rust\\"><span>//</span><span>&nbsp;Atom&nbsp;Highlight</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -683,7 +683,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span class=\\"support variable js\\"><span>module</span></span><span class=\\"meta function arrow js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"entity name function js\\"><span>exports</span></span><span>&nbsp;</span><span class=\\"keyword operator assignment js\\"><span>=</span></span><span>&nbsp;</span><span class=\\"meta parameters js\\"><span class=\\"punctuation definition parameters begin bracket round js\\"><span>(</span></span><span class=\\"variable parameter function js\\"><span>options</span></span><span class=\\"punctuation definition parameters end bracket round js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"storage type function arrow js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"meta function arrow js\\"><span class=\\"meta parameters js\\"><span class=\\"punctuation definition parameters begin bracket round js\\"><span>(</span></span><span class=\\"variable parameter function js\\"><span>ast</span></span><span class=\\"punctuation definition parameters end bracket round js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"storage type function arrow js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"punctuation definition function body begin bracket curly js\\"><span>{</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span>&nbsp;&nbsp;</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>This</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span>&nbsp;&nbsp;</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>is</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span>&nbsp;&nbsp;</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>a</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"source js\\"><span>&nbsp;&nbsp;</span><span class=\\"entity name type object console js\\"><span>console</span></span><span class=\\"meta method-call js\\"><span class=\\"meta delimiter method period js\\"><span>.</span></span><span class=\\"support function console js\\"><span>log</span></span><span class=\\"meta arguments js\\"><span class=\\"punctuation definition arguments begin bracket round js\\"><span>(</span></span><span class=\\"string quoted double js\\"><span class=\\"punctuation definition string begin js\\"><span>&quot;</span></span><span>test</span><span class=\\"punctuation definition string end js\\"><span>&quot;</span></span></span><span class=\\"punctuation definition arguments end bracket round js\\"><span>)</span></span></span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"punctuation definition function body end bracket curly js\\"><span>}</span></span><span class=\\"punctuation terminator statement js\\"><span>;</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line highlighted-line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--support syntax--variable syntax--js\\"><span>module</span></span><span class=\\"syntax--meta syntax--function syntax--arrow syntax--js\\"><span class=\\"syntax--meta syntax--delimiter syntax--method syntax--period syntax--js\\"><span>.</span></span><span class=\\"syntax--entity syntax--name syntax--function syntax--js\\"><span>exports</span></span><span>&nbsp;</span><span class=\\"syntax--keyword syntax--operator syntax--assignment syntax--js\\"><span>=</span></span><span>&nbsp;</span><span class=\\"syntax--meta syntax--parameters syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--parameters syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--variable syntax--parameter syntax--function syntax--js\\"><span>options</span></span><span class=\\"syntax--punctuation syntax--definition syntax--parameters syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"syntax--storage syntax--type syntax--function syntax--arrow syntax--js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"syntax--meta syntax--function syntax--arrow syntax--js\\"><span class=\\"syntax--meta syntax--parameters syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--parameters syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--variable syntax--parameter syntax--function syntax--js\\"><span>ast</span></span><span class=\\"syntax--punctuation syntax--definition syntax--parameters syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span><span>&nbsp;</span><span class=\\"syntax--storage syntax--type syntax--function syntax--arrow syntax--js\\"><span>=&gt;</span></span></span><span>&nbsp;</span><span class=\\"syntax--punctuation syntax--definition syntax--function syntax--body syntax--begin syntax--bracket syntax--curly syntax--js\\"><span>{</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"syntax--source syntax--js\\"><span>&nbsp;&nbsp;</span><span class=\\"syntax--entity syntax--name syntax--type syntax--object syntax--console syntax--js\\"><span>console</span></span><span class=\\"syntax--meta syntax--method-call syntax--js\\"><span class=\\"syntax--meta syntax--delimiter syntax--method syntax--period syntax--js\\"><span>.</span></span><span class=\\"syntax--support syntax--function syntax--console syntax--js\\"><span>log</span></span><span class=\\"syntax--meta syntax--arguments syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--string syntax--quoted syntax--double syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--begin syntax--js\\"><span>&quot;</span></span><span>This</span><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--end syntax--js\\"><span>&quot;</span></span></span><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span></span><span class=\\"syntax--punctuation syntax--terminator syntax--statement syntax--js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span>&nbsp;&nbsp;</span><span class=\\"syntax--entity syntax--name syntax--type syntax--object syntax--console syntax--js\\"><span>console</span></span><span class=\\"syntax--meta syntax--method-call syntax--js\\"><span class=\\"syntax--meta syntax--delimiter syntax--method syntax--period syntax--js\\"><span>.</span></span><span class=\\"syntax--support syntax--function syntax--console syntax--js\\"><span>log</span></span><span class=\\"syntax--meta syntax--arguments syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--string syntax--quoted syntax--double syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--begin syntax--js\\"><span>&quot;</span></span><span>is</span><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--end syntax--js\\"><span>&quot;</span></span></span><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span></span><span class=\\"syntax--punctuation syntax--terminator syntax--statement syntax--js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span>&nbsp;&nbsp;</span><span class=\\"syntax--entity syntax--name syntax--type syntax--object syntax--console syntax--js\\"><span>console</span></span><span class=\\"syntax--meta syntax--method-call syntax--js\\"><span class=\\"syntax--meta syntax--delimiter syntax--method syntax--period syntax--js\\"><span>.</span></span><span class=\\"syntax--support syntax--function syntax--console syntax--js\\"><span>log</span></span><span class=\\"syntax--meta syntax--arguments syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--string syntax--quoted syntax--double syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--begin syntax--js\\"><span>&quot;</span></span><span>a</span><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--end syntax--js\\"><span>&quot;</span></span></span><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span></span><span class=\\"syntax--punctuation syntax--terminator syntax--statement syntax--js\\"><span>;</span></span></span></div><div class=\\"line highlighted-line\\"><span class=\\"syntax--source syntax--js\\"><span>&nbsp;&nbsp;</span><span class=\\"syntax--entity syntax--name syntax--type syntax--object syntax--console syntax--js\\"><span>console</span></span><span class=\\"syntax--meta syntax--method-call syntax--js\\"><span class=\\"syntax--meta syntax--delimiter syntax--method syntax--period syntax--js\\"><span>.</span></span><span class=\\"syntax--support syntax--function syntax--console syntax--js\\"><span>log</span></span><span class=\\"syntax--meta syntax--arguments syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--begin syntax--bracket syntax--round syntax--js\\"><span>(</span></span><span class=\\"syntax--string syntax--quoted syntax--double syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--begin syntax--js\\"><span>&quot;</span></span><span>test</span><span class=\\"syntax--punctuation syntax--definition syntax--string syntax--end syntax--js\\"><span>&quot;</span></span></span><span class=\\"syntax--punctuation syntax--definition syntax--arguments syntax--end syntax--bracket syntax--round syntax--js\\"><span>)</span></span></span></span><span class=\\"syntax--punctuation syntax--terminator syntax--statement syntax--js\\"><span>;</span></span></span></div><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--function syntax--body syntax--end syntax--bracket syntax--curly syntax--js\\"><span>}</span></span><span class=\\"syntax--punctuation syntax--terminator syntax--statement syntax--js\\"><span>;</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -724,7 +724,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
+      "value": "<pre><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -765,7 +765,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
+      "value": "<pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -806,7 +806,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<pre class=\\"foo bar\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
+      "value": "<pre class=\\"foo bar\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -847,7 +847,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<span class='highlighted-file-icon js-icon medium-yellow'></span><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
+      "value": "<span class='highlighted-file-icon js-icon medium-yellow'></span><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
     },
   ],
   "position": Object {
@@ -888,7 +888,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<span class='highlighted-file-name'>js</span><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"source js\\"><span class=\\"comment line double-slash js\\"><span class=\\"punctuation definition comment js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
+      "value": "<span class='highlighted-file-name'>js</span><pre class=\\"editor editor-colors\\"><div class=\\"line\\"><span class=\\"syntax--source syntax--js\\"><span class=\\"syntax--comment syntax--line syntax--double-slash syntax--js\\"><span class=\\"syntax--punctuation syntax--definition syntax--comment syntax--js\\"><span>//</span></span><span>&nbsp;Atom&nbsp;Highlight&nbsp;with&nbsp;fileName</span></span></span></div></pre>",
     },
   ],
   "position": Object {
