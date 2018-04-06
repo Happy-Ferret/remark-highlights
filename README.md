@@ -82,6 +82,14 @@ So to get a nice CSS theme, you can just [choose an Atom theme](https://www.atom
 
 Note: Atom themes are [less](http://lesscss.org) files so a compilation is required.
 
-Rename `atom-text-editor` to `editor` and remove every instance of `syntax--`
+➡️ The easiest way to quickly get an CSS is to rely on [atom-syntax-theme-to-highlights-css](https://github.com/MoOx/atom-syntax-theme-to-highlights-css).
 
-(optional; if you don't want to do that just set the scopePrefix to `syntax--`) in the theme files.
+```console
+npx atom-syntax-theme-to-highlights-css --clipboard <repository>
+```
+
+Example
+
+```console
+npx atom-syntax-theme-to-highlights-css --clipboard https://github.com/simurai/duotone-dark-sea-syntax
+```
