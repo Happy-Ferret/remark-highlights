@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/MoOx/remark-highlights.svg?branch=master)](https://travis-ci.org/MoOx/remark-highlights)
 
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/MoOx/remark-highlights)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/MoOx/remark-highlights)
+[![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-1F5081.svg)](https://bitbucket.org/MoOx/remark-highlights)
+
 This [remark](https://remark.js.org) plugin allows you to highlight code snippets
 in markdown files using [Atom highlights](https://github.com/atom/highlights).
 
