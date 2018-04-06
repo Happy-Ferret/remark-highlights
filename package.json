@@ -31,12 +31,14 @@
     "husky": "^0.14.3",
     "jest": "^21.0.0",
     "language-rust": "^0.4.12",
+    "npmpub": "^3.1.0",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1",
     "remark": "^8.0.0"
   },
   "scripts": {
     "precommit": "pretty-quick --staged",
+    "release": "npmpub --skip-cleanup",
     "test": "jest ."
   }
 }
